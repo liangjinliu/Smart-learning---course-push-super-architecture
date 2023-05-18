@@ -1,0 +1,5 @@
+Sub ExcelFormat()
+    Sheet1.Range("D:D").Select
+    Selection.NumberFormatLocal = "@"
+  
+End Sub
